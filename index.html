@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Grape+Nuts&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script>
+    var count = 0;
+function clicking(){
+    count++;
+    document.getElementById("count").innerHTML = count +"€";
+    if(count >= 100){
+        document.getElementById("count").innerHTML = "Du bist so Hobbylos!";
+    }
+   
+
+}
+
+
+
+
+
+</script>
+<style>
+    
+    body{
+        font-family: 'DM Sans', sans-serif;
+    }
+    .title{
+        font-size: 50px;
+    }
+    .text{
+        font-size: 40px;
+    }
+    .bild{
+      width: 100%;
+    }
+    
+</style>
+</head>
+<body>
+    <div class="title"><h1>
+        Alle Informatoinen über Felix!
+    </h1></div>
+    <div class="text"> <p>
+        Er hat ein eigenen YouTubekanal!
+       </p>
+       <a href="https://www.youtube.com/watch?v=QsV7tlzel0U&t=1s">Beste Video!</a>
+       <p>So viel Geld hat Felix!</p>
+       <p onclick="clicking()" id="count">0€</p>
+       
+        <b onclick="alert('Alles ist eine Lüge!')">Ein Steckbrief über Felix!</b> 
+        <p>
+            Felix ist sehr nett und immer Hilfsbereit!
+        Felix rastet nie aus.
+        Felix ist nicht sehr groß.
+        Aber Felix ist so gut auf dem Trampolin!
+        Er kann Backflip,Frontflip und Sideflip denke ich!
+        Felix ist ein nicht so schlauer Junge!
+        Sein bester Freund ist Arti!
+        
+    </p>
+    <a href="C:\Users\Frederick\OneDrive\Dokumente\Fotos\Felix!.rtf">Ein Virus!</a>
+
+
+
+       
+       <img class="bild" src ="C:\Users\Frederick\OneDrive\Dokumente\Programierung\FelixInternetSeite\FotosfuerWebseite\Felix.jpg">
+    
+       
+
+
+
+
+      
+    </div>
+   
+   
+</body>
+</html>
